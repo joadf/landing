@@ -33,7 +33,7 @@
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
-  color: #333;
+  color: #452408;
   font-weight: 500;
   font-size: 1.8rem;
   transition: all 0.3s;
@@ -41,7 +41,7 @@
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #cf711f;
+  color: #0abab5;
 }
 
 .main-nav-link.nav-cta:link,
@@ -49,12 +49,12 @@
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
   color: #fff;
-  background-color: #e67e22;
+  background-color: #0abab5;
 }
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: #cf711f;
+  background-color: #0abab5;
 }
 
 /* MOBILE */
@@ -69,7 +69,7 @@
 .icon-mobile-nav {
   height: 4.8rem;
   width: 4.8rem;
-  color: #333;
+  color: #452408;
 }
 
 .icon-mobile-nav[name="close-outline"] {
@@ -152,7 +152,7 @@
 }
 
 .delivered-text span {
-  color: #cf711f;
+  color: #0abab5;
   font-weight: 700;
 }
 
@@ -209,6 +209,14 @@
   line-height: 1.8;
 }
 
+.step-description {
+  text-align: justify;
+}
+
+.text-brown {
+  color: #452408;
+}
+
 .step-img-box {
   position: relative;
 
@@ -247,12 +255,12 @@
 }
 
 .step-img {
-  width: 50%;
+  width: 70%;
   /* z-index: 10; */
 }
 
 .step-img-big {
-  width: 80%;
+  width: 100%;
   /* z-index: 10; */
 }
 
@@ -291,7 +299,7 @@
   padding: 0.4rem 0.8rem;
   font-size: 1.2rem;
   text-transform: uppercase;
-  color: #333;
+  color: #452408;
   border-radius: 100px;
   font-weight: 600;
 }
@@ -308,7 +316,7 @@
 
 .meal-title {
   font-size: 2.4rem;
-  color: #333;
+  color: #452408;
   font-weight: 600;
   margin-bottom: 3.2rem;
 }
@@ -330,7 +338,7 @@
 .meal-icon {
   height: 2.4rem;
   width: 2.4rem;
-  color: #e67e22;
+  color: #0abab5;
 }
 
 .meal-img {
@@ -438,7 +446,7 @@
   text-transform: uppercase;
   font-size: 1.4rem;
   font-weight: 700;
-  color: #333;
+  color: #452408;
   background-color: #ffd43b;
   padding: 0.8rem 8rem;
   transform: rotate(45deg);
@@ -450,7 +458,7 @@
 }
 
 .plan-name {
-  color: #cf711f;
+  color: #0abab5;
   font-weight: 600;
   font-size: 2rem;
   text-transform: uppercase;
@@ -461,7 +469,7 @@
 .plan-price {
   font-size: 6.2rem;
   font-weight: 600;
-  color: #333;
+  color: #452408;
   margin-bottom: 1.6rem;
 }
 
@@ -489,7 +497,7 @@
 }
 
 .feature-icon {
-  color: #e67e22;
+  color: #0abab5;
   height: 3.2rem;
   width: 3.2rem;
   background-color: #fdf2e9;
@@ -500,7 +508,7 @@
 
 .feature-title {
   font-size: 2.4rem;
-  color: #333;
+  color: #452408;
   font-weight: 700;
   margin-bottom: 1.6rem;
 }
@@ -526,11 +534,11 @@
   display: grid;
   /* 2/3 = 66.6% + 1/3 = 33.3% */
   grid-template-columns: 2fr 1fr;
-  /* background-color: #e67e22; */
+  /* background-color: #0abab5; */
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
 
-  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+  background-image: linear-gradient(to right bottom, #eb984e, #0abab5);
   overflow: hidden;
 }
 

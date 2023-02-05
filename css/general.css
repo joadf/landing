@@ -23,7 +23,7 @@ Large: 1.8
 
 --- 02 COLORS
 
-- Primary: #e67e22
+- Primary: #0abab5
 - Tints:
 #fdf2e9
 #fae5d3
@@ -128,6 +128,10 @@ body {
   grid-template-columns: repeat(5, 1fr);
 } */
 
+.grid--start-v {
+  align-items: flex-start;
+}
+
 .grid--center-v {
   align-items: center;
 }
@@ -136,7 +140,7 @@ body {
 .heading-secondary,
 .heading-tertiary {
   font-weight: 700;
-  color: #333;
+  color: #452408;
   /* color: #45260a; */
   /* color: #343a40; */
   letter-spacing: -0.5px;
@@ -193,7 +197,7 @@ body {
 
 .btn--full:link,
 .btn--full:visited {
-  background-color: #e67e22;
+  background-color: #0abab5;
   color: #fff;
 }
 
@@ -233,7 +237,7 @@ body {
 .link:link,
 .link:visited {
   display: inline-block;
-  color: #e67e22;
+  color: #0abab5;
   text-decoration: none;
   border-bottom: 1px solid currentColor;
   padding-bottom: 2px;
@@ -264,12 +268,12 @@ body {
 .list-icon {
   width: 3rem;
   height: 3rem;
-  color: #e67e22;
+  color: #0abab5;
 }
 
 *:focus {
   outline: none;
-  /* outline: 4px dotted #e67e22; */
+  /* outline: 4px dotted #0abab5; */
   /* outline-offset: 8px; */
   box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
 }
