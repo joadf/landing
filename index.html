@@ -128,11 +128,16 @@
         <div class="container grid grid--2-cols grid--start-v">
         
         <div class="step-img-box">
-          <img
-            src="img/dra-jo.jpg"
-            class="step-img-big"
-            alt="Foto da Dra. Jociene Andrade"
-          />
+          <picture>
+            <source srcset="img/fotos/dra-jo.webp" type="image/webp" />
+            <source srcset="img/fotos/dra-jo.jpg" type="image/jpg" />
+
+            <img
+              src="img/fotos/dra-jo.jpg"
+              class="hero-img"
+              alt="Foto da Dra. Jociene Andrade"
+            />
+          </picture>
         </div>
         <div class="step-text-box">
           <p class="step-description">

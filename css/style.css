@@ -237,11 +237,11 @@
 }
 
 .step-img-box::before {
-  width: 60%;
+  width: 85%;
   /* height: 60%; */
 
   /* 60% of parent's width */
-  padding-bottom: 60%;
+  padding-bottom: 85%;
 
   background-color: #fdf2e9;
   z-index: -2;
@@ -572,7 +572,7 @@
       rgba(235, 151, 78, 0.35),
       rgba(230, 125, 34, 0.35)
     ),
-    url("../img/dra-jociene-andrade.jpg");
+    url("../img/fotos/dra-jociene-andrade.jpg");
   background-size: cover;
   background-position: center;
 }
